@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>سایت پیام محور</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Tahoma, sans-serif;
+      direction: rtl;
+      background: #f7f7f7;
+    }
+
+    header {
+      background: #111;
+      color: white;
+      padding: 15px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav a {
+      color: white;
+      margin-right: 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #25D366;
+    }
+
+    .hero {
+      background: white;
+      text-align: center;
+      padding: 70px 20px;
+    }
+
+    .hero h2 {
+      font-size: 2rem;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin: 15px 0;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #25D366;
+      color: white;
+      padding: 12px 25px;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+
+    .btn:hover {
+      background: #128C7E;
+    }
+
+    section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    footer {
+      background: #111;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      nav a {
+        margin: 5px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- هدر -->
+  <header>
+    <h1>سایت پیام محور</h1>
+    <nav>
+      <a href="#about">درباره</a>
+      <a href="#message">پیام دهید</a>
+    </nav>
+  </header>
+
+  <!-- بخش معرفی -->
+  <section class="hero">
+    <h2>خوش آمدید!</h2>
+    <p>برای ارتباط با ما فقط کافی است پیام دهید. ساده و سریع!</p>
+    <a href="#message" class="btn">ارسال پیام</a>
+  </section>
+
+  <!-- درباره ما -->
+  <section id="about">
+    <h2>درباره ما</h2>
+    <p>
+      این سایت برای ارتباط سریع و راحت با مشتری طراحی شده است.  
+      شما فقط با یک کلیک روی دکمه پیام می‌توانید با ما در تماس باشید.
+    </p>
+  </section>
+
+  <!-- پیام -->
+  <section id="message">
+    <h2>ارسال پیام</h2>
+    <p>روی دکمه زیر کلیک کنید و پیام خود را ارسال نمایید:</p>
+    <a class="btn" href="https://wa.me/989123456789" target="_blank">
+      پیام در واتساپ
+    </a>
+  </section>
+
+  <!-- فوتر -->
+  <footer>
+    <p>© 2025 سایت پیام محور - تمامی حقوق محفوظ است</p>
+  </footer>
+
+</body>
+</html>
